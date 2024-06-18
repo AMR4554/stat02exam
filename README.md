@@ -1,17 +1,17 @@
 Summary:
-                    1. We have  various data to prove a company is bankrupt or not, using bankrupt as target variable with various continuous data . We have ,'Bankrupt','Liability-Assets Flag','Net Income Flag' are categorical variables and other feature variables.
-                      2. Features have outliers which affect  accuracy of the model hence using IQR we find and remove outliers.
-                       3.we then  used different tools to check null hypothesis and checking relation between feature and target variable.such ANOVA , ZTEST check null hypothesis.
-We find in anova test['Bankrupt','Current_Liability_to_Equity is not affected significantly by bankruptcy target variable.
-   Using Z TEST show how much standard deviation vary from mean we get z =(-inf, 0.0
-Showing a high value of p means null hypothesis sustain.
-                       4.we checked  correlation matrix we 
-Find negative correlation . feature inversely proportional to target variable.
-    4.now after selection of independent variable bankrupt and single dependent variable .
-     5.we developed a logistic regression model selecting features against bankrupt variables. We get 95% Accuracy with logistic regression. Such way we analyzing effect of{ 'After-tax net Interest Rate',
-       'Non-industry income and expenditure/revenue',
-       'Continuous interest rate (after tax)', 'Operating Expense Rate',
-       'Research and development expense rate', 'Cash flow rate',
-       'Interest-bearing debt interest rate', 'Tax rate (A)',
-       'Net Value Per Share (B)', 'Net Value Per Share (A)'] upon a bankrupt categorical variable.
-6.we use SMOT for balancing model and RFE
+                    1. We Have  Various Data to Prove a Company is Bankrupt or Not, Using Bankrupt as Target Variable With Various Continuous Data . We Have ,'bankrupt','liability-assets Flag','net Income Flag' Are Categorical Variables and Other Feature Variables.
+                      2. Features Have Outliers Which Affect  Accuracy of the Model Hence Using Iqr We Find and Remove Outliers.
+                       3.we Then  Used Different Tools to Check Null Hypothesis and Checking Relation Between Feature and Target Variable.such Anova , Ztest Check Null Hypothesis.
+We Find in Anova Test['bankrupt','current_liability_to_equity is Not Affected Significantly by Bankruptcy Target Variable.
+   Using Z Test Show How Much Standard Deviation Vary From Mean We Get Z =(-inf, 0.0
+Showing a High Value of P Means Null Hypothesis Sustain.
+                       4.we Checked  Correlation Matrix We 
+Find Negative Correlation . Feature Inversely Proportional to Target Variable.
+    4.now After Selection of Independent Variable Bankrupt and Single Dependent Variable .
+     5.we Developed a Logistic Regression Model Selecting Features Against Bankrupt Variables. We Get 95% Accuracy With Logistic Regression. Such Way We Analyzing Effect of{ 'after-tax Net Interest Rate',
+       'non-industry Income and Expenditure/revenue',
+       'continuous Interest Rate (After Tax)', 'operating Expense Rate',
+       'research and Development Expense Rate', 'cash Flow Rate',
+       'interest-bearing Debt Interest Rate', 'tax Rate (a)',
+       'net Value Per Share (B)', 'net Value Per Share (a)'] Upon a Bankrupt Categorical Variable.
+6.we Use SMOT for Balancing Model and RFE
