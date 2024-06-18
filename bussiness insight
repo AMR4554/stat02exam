@@ -1,0 +1,10 @@
+Business insight and conclusion:
+    we had analyised finacial data of companies which are going to bankurupt wiyh help of various feature as per our model and data analysis all feature are negative perportional to ebankurupt variable rize i feature value tend to company bankurupt.
+we selected features such 'After-tax net Interest Rate',
+       'Non-industry income and expenditure/revenue',
+       'Continuous interest rate (after tax)', 'Operating Expense Rate',
+       'Research and development expense rate', 'Cash flow rate',
+       'Interest-bearing debt interest rate', 'Tax rate (A)',
+       'Net Value Per Share (B)', 'Net Value Per Share (A)'
+]
+are heivily affected for company finacial condition hence we need to minimize above fator to minimize risk fatctor to get company bankurupt.
